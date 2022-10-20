@@ -46,3 +46,11 @@
     6. `true`  
     `Boolean(2)` evaluates to the boolean `true`, and is strictly checked for equality.
 15. Compared to a regular equality check (`==`), a strict equality check (`===`) checks the equality without type conversion. Therefore, if both operands are of different types, the strict equality check will return `false`. The regular equality check would convert both operands to numbers before comparison.
+16. 
+    ```js
+    for (const property in statistics) {
+        if ((property[0] == 'r') || (statistics[property] % 2)) {
+            console.log(property);
+        }
+    }
+    ```
