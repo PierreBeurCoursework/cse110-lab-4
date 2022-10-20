@@ -10,3 +10,8 @@
 10. Line 12 prints `3`.
 11. This function will return `[50, 100, 150]`, since it returns an array of the original prices after applying the `0.5` factor discount. No error is caused since the variable `discounted` is returned within the same block as it is defined, and it is not reassigned to a new array after being assigned for the first time, instead, the array is modified.
 12. 
+    1. `student.name`
+    2. `student['Grad Year']`
+    3. `student.greeting()`
+    4. `student['Favorite Teacher'].name`
+    5. `student.courseLoad[0]`
