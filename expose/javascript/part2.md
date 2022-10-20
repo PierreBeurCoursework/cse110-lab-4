@@ -54,3 +54,5 @@
         }
     }
     ```
+17. `[2, 4, 6]`  
+    `modifyArray` calls back to `doSomething` on each element of the input `array`, and stores the results in the output `newArr`.
