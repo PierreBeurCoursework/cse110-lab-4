@@ -32,3 +32,16 @@
     The value `undefined` is converted into the string `'undefined'`, which is concatenated with `'3'`.
     8. `NaN`  
     The string `'3'` and the value `undefined` are converted into the numbers `3` and `NaN`, respectively, and subtracted.
+14. 
+    1. `true`  
+    The string `'2'` is converted into the number `2`, and compared.
+    2. `false`  
+    The strings `'2'` and `'12'` are converted into the numbers `2` and `12`, and compared.
+    3. `true`  
+    The string `'2'` is converted into the number `2`, and compared.
+    4. `false`  
+    The number `2` and the string `'2'` are of different types.
+    5. `false`  
+    The boolean `true` is converted into the number `1`, and compared.
+    6. `true`  
+    `Boolean(2)` evaluates to the boolean `true`, and is strictly checked for equality.
