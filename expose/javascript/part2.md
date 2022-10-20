@@ -15,3 +15,20 @@
     3. `student.greeting()`
     4. `student['Favorite Teacher'].name`
     5. `student.courseLoad[0]`
+13. 
+    1. `'32'`  
+    The number `2` is converted into the string `'2'`, which is concatenated with `'3'`.
+    2. `1`  
+    The string `'3'` is converted into the number `3`, which has `2` subtracted from it.
+    3. `3`  
+    The value `null` is converted into the number `0`, which is added to `3`.
+    4. `'3null'`  
+    The value `null` is converted into the string `'null'`, which is concatenated with `'3'`.
+    5. `4`  
+    The boolean `true` is converted into the number `1`, which is added to `3`.
+    6. `0`  
+    The boolean `false` and the value `null` are both converted into the number `0`, and summed.
+    7. `'3undefined'`  
+    The value `undefined` is converted into the string `'undefined'`, which is concatenated with `'3'`.
+    8. `NaN`  
+    The string `'3'` and the value `undefined` are converted into the numbers `3` and `NaN`, respectively, and subtracted.
