@@ -56,3 +56,11 @@
     ```
 17. `[2, 4, 6]`  
     `modifyArray` calls back to `doSomething` on each element of the input `array`, and stores the results in the output `newArr`.
+18. 
+    ```js
+    setInterval(function() {
+        let d = new Date();
+        let time = d.toLocaleTimeString();
+        console.log(time);
+    }, 1000);
+    ```
